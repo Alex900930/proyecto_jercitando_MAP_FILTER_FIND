@@ -1,5 +1,6 @@
 import './App.css';
-import ReyesNombresinG from "./components/ReyesNombresinG";
+import ReyconLetraE from './components/ReyconLetraE';
+
 
 function App() {
   const reyes = [
@@ -42,8 +43,8 @@ function App() {
 
   return (
     <>
-        <h1>Actividad 2:</h1>
-        <ReyesNombresinG reyes={reyes}/>
+        <h1>Actividad 3:</h1>
+        <ReyconLetraE reyes={reyes}/>
       
     </>
   );
