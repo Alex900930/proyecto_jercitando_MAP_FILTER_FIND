@@ -1,5 +1,5 @@
-import Reyes from "./components/Reyes";
 import './App.css';
+import ReyesNombresinG from "./components/ReyesNombresinG";
 
 function App() {
   const reyes = [
@@ -42,8 +42,8 @@ function App() {
 
   return (
     <>
-        <h1>Actividad 1:</h1>
-        <Reyes reyes={reyes}/>
+        <h1>Actividad 2:</h1>
+        <ReyesNombresinG reyes={reyes}/>
       
     </>
   );
