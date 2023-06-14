@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+import Reyes from "./components/Reyes";
 import './App.css';
 
 function App() {
+  const reyes = [
+    {
+      nombre: "Atanagildo",
+      comido: 49275,
+      años: 15,
+    },
+    {
+      nombre: "Ervigio",
+      comido: 7665,
+      años: 7,
+    },
+    {
+      nombre: "Ataulfo",
+      comido: 29200,
+      años: 5,
+    },
+    {
+      nombre: "Leogivildo",
+      comido: 19770,
+      años: 18,
+    },
+    {
+      nombre: "Recesvinto",
+      comido: 76285,
+      años: 19,
+    },
+    {
+      nombre: "Sisebuto",
+      comido: 42705,
+      años: 9,
+    },
+    {
+      nombre: "Teodorico",
+      comido: 144540,
+      años: 33,
+    },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <h1>Actividad 1:</h1>
+        <Reyes reyes={reyes}/>
+      
+    </>
   );
 }
 
