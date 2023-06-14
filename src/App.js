@@ -1,5 +1,5 @@
 import './App.css';
-import ReyconLetraE from './components/ReyconLetraE';
+import ReyesConMasDiezAños from './components/ReyesConMasDiezAños';
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     {
       nombre: "Atanagildo",
       comido: 49275,
-      años: 15,
+      años: 5,
     },
     {
       nombre: "Ervigio",
@@ -22,7 +22,7 @@ function App() {
     {
       nombre: "Leogivildo",
       comido: 19770,
-      años: 18,
+      años: 8,
     },
     {
       nombre: "Recesvinto",
@@ -43,8 +43,8 @@ function App() {
 
   return (
     <>
-        <h1>Actividad 3:</h1>
-        <ReyconLetraE reyes={reyes}/>
+        <h1>Actividad 4:</h1>
+        <ReyesConMasDiezAños reyes={reyes}/>
       
     </>
   );
